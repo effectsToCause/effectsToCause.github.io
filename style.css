@@ -1,0 +1,14 @@
+
+.menu_div { width:100%; height:25px; background-color:#FFFFFF; position:relative;}
+
+.menu_div ul li{display:inline-block; float:left; position:relative;}
+
+.menu_div ul li a{display:inline-block;	height:25px; font:14px Arial, Helvetica, sans-serif; color:#000000;	text-align:center;	transition: background .4s ease-out; line-height:25px;	padding:0 25px 0 25px;	border-right:1px solid #000000;	border-left:1px solid #000000;	}
+
+.menu_div ul li a:hover{background-color:#1E4873;}
+
+.menu_div span.arw_lf, .menu_div span.arw_rh {display:inline-block;	position:absolute; width:12px;	height:6px;	background:url(picture.jpg/png) no-repeat;	top:-6px;}
+
+.menu_div span.arw_lf {background-position:-12px 0;	left:0px;}
+
+.menu_div span.arw_rh {background-position:0px 0;right:0px;}
